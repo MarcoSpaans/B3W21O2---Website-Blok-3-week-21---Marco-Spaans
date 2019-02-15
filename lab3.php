@@ -8,12 +8,17 @@
 
     <?php
 
-    echo(rand(1,100) + rand(1,100));
+    echo(rand(1,100) * rand(1,100));
 
-    $number = [3, 5, 8, 12];
-    foreach ($number as $getal) {
-      echo "<p>6 x ".$getal." = ".(6 * $getal)."</p>";
+    function table()
+    {
+      $number = [3, 5, 8, 12];
+      for ($i=0; $i < 4; $i++) {
+        echo "<p>6 x ".$number[$i]." = ".(6 * $number[$i])."</p>";
+      }
     }
+
+  table();
 
      ?>
 
