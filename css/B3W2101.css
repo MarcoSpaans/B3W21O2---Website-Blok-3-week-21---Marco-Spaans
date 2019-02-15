@@ -1,0 +1,28 @@
+.background-morning {
+background-image: url("../img/morning.png");
+}
+
+.background-afternoon {
+background-image: url("../img/afternoon.png");
+}
+
+.background-evening {
+background-image: url("../img/evening.png");
+}
+
+.background-night {
+background-image: url("../img/night.png");
+}
+
+body {
+  background-size: cover;
+  text-align: center;
+}
+
+h1, h2 {
+  font-family: 'Sedgwick Ave', cursive;
+  font-size: 60px;
+  color: white;
+  position: relative;
+  top: 25%;
+}
